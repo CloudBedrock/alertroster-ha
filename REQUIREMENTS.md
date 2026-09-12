@@ -183,7 +183,7 @@ Default-store inclusion (after the above are green and a release exists):
 
 1. Confirm the repo installs as a HACS **custom repository** (HACS → ⋮ → Custom repositories →
    this URL, category Integration).
-2. Open a PR against `hacs/default` adding `CloudBedrock/alertroster-hacs` to the `integration`
+2. Open a PR against `hacs/default` adding `CloudBedrock/alertroster-ha` to the `integration`
    file, alphabetically. Only the owner or a major contributor may open it.
 3. Automated checks on that PR: brands, manifest, HACS validation, active repo, ≥1 release,
    contributor, description/issues/topics, JSON sorting.
