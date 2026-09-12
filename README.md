@@ -14,8 +14,8 @@ react when the alert is acknowledged, resolved — or **expires with nobody answ
 Nothing here touches the internet. If the station has an AlertRoster cloud key, *it* escalates
 off-site; Home Assistant just sees the result.
 
-> **Status:** pre-release. Install as a HACS custom repository (below) — the default-store
-> listing lands with v1.0.0.
+> **Status:** released. Install from HACS as a custom repository (below) until the default-store
+> listing lands.
 
 ## You'll need a receiver station
 
