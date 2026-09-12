@@ -1,6 +1,6 @@
 # AlertRoster for Home Assistant
 
-[![Validate](https://github.com/CloudBedrock/alertroster-hacs/actions/workflows/validate.yaml/badge.svg)](https://github.com/CloudBedrock/alertroster-hacs/actions/workflows/validate.yaml)
+[![Validate](https://github.com/CloudBedrock/alertroster-ha/actions/workflows/validate.yaml/badge.svg)](https://github.com/CloudBedrock/alertroster-ha/actions/workflows/validate.yaml)
 [![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
 
 Ring the panel from Home Assistant — and know when nobody answered.
@@ -40,7 +40,7 @@ Assistant can reach it.
 
 ### HACS (recommended)
 
-1. HACS → ⋮ → **Custom repositories** → add `https://github.com/CloudBedrock/alertroster-hacs`,
+1. HACS → ⋮ → **Custom repositories** → add `https://github.com/CloudBedrock/alertroster-ha`,
    category *Integration*. (Not needed once the integration is in the HACS default store.)
 2. Search HACS for **AlertRoster**, install, restart Home Assistant.
 

@@ -22,9 +22,9 @@ Settings in the sidebar):
 
 ```sh
 cd /config && mkdir -p custom_components && \
-wget -qO /tmp/ar.tar.gz https://github.com/CloudBedrock/alertroster-hacs/archive/refs/heads/main.tar.gz && \
+wget -qO /tmp/ar.tar.gz https://github.com/CloudBedrock/alertroster-ha/archive/refs/heads/main.tar.gz && \
 tar -xzf /tmp/ar.tar.gz -C /tmp && rm -rf custom_components/alertroster && \
-cp -r /tmp/alertroster-hacs-main/custom_components/alertroster custom_components/
+cp -r /tmp/alertroster-ha-main/custom_components/alertroster custom_components/
 ```
 
 Then restart Home Assistant — `POST /api/services/homeassistant/restart`, which times out by

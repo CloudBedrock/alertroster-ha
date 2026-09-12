@@ -72,9 +72,9 @@ own words.
 Only after a release exists and both actions are green.
 
 1. Confirm the repo installs as a HACS **custom repository** end to end (AHA-2): HACS → ⋮ →
-   Custom repositories → `https://github.com/CloudBedrock/alertroster-hacs`, category
+   Custom repositories → `https://github.com/CloudBedrock/alertroster-ha`, category
    *Integration* → install → restart → the integration loads.
-2. PR against `hacs/default` adding `CloudBedrock/alertroster-hacs` to the `integration` file,
+2. PR against `hacs/default` adding `CloudBedrock/alertroster-ha` to the `integration` file,
    **alphabetically** — the JSON-sorting check is one of the automated ones. Only the repo owner
    or a major contributor may open it.
 3. The rest of the checks: brands (satisfied by the in-repo `brand/` directory), manifest,
