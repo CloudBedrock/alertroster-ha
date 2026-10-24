@@ -1,7 +1,7 @@
 # AlertRoster for Home Assistant
 
 [![Validate](https://github.com/CloudBedrock/alertroster-ha/actions/workflows/validate.yaml/badge.svg)](https://github.com/CloudBedrock/alertroster-ha/actions/workflows/validate.yaml)
-[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
+[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
 
 Ring the panel from Home Assistant — and know when nobody answered.
 
@@ -14,8 +14,9 @@ react when the alert is acknowledged, resolved — or **expires with nobody answ
 Nothing here touches the internet. If the station has an AlertRoster cloud key, *it* escalates
 off-site; Home Assistant just sees the result.
 
-> **Status:** released. Install from HACS as a custom repository (below) until the default-store
-> listing lands.
+> **Status:** released, and in the HACS default store.
+
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=CloudBedrock&repository=alertroster-ha&category=integration)
 
 ## You'll need a receiver station
 
@@ -40,9 +41,15 @@ Assistant can reach it.
 
 ### HACS (recommended)
 
-1. HACS → ⋮ → **Custom repositories** → add `https://github.com/CloudBedrock/alertroster-ha`,
-   category *Integration*. (Not needed once the integration is in the HACS default store.)
-2. Search HACS for **AlertRoster**, install, restart Home Assistant.
+AlertRoster is in the HACS default store, so there is no repository to add.
+
+1. Click **Open in HACS** above, or search HACS for **AlertRoster**.
+2. **Download**, then restart Home Assistant.
+3. Any station on your network with **Accept sources from the LAN** turned on shows up under
+   Settings → Devices & services as discovered — see [Pair with a station](#pair-with-a-station).
+
+Added it earlier as a custom repository? Remove that entry (HACS → ⋮ → **Custom repositories**)
+— the default-store listing is the same integration and keeps updating.
 
 ### Manual
 
